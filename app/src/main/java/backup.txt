@@ -1,0 +1,7 @@
+adb shell bmgr enable true
+
+adb shell bmgr backup br.com.up.hellobackup
+
+adb shell bmgr run
+
+adb uninstall br.com.up.hellobackup
