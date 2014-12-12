@@ -2,16 +2,17 @@ package br.com.up.hellobackup;
 
 import android.app.backup.BackupManager;
 import android.content.SharedPreferences;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 
+/**
+ * Main
+ */
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
     private static final String TAG = "livro";
